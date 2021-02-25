@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="travelling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <!-- ---navigation bar--- -->
+    <nav class="navbar bg-primary navbar-expand ">
+        <a href="#" class="navbar-brand text-white ml-5"><i class="fas fa-plane"></i>  Travelling Adda</a>
+        <div class="collapse navbar-collapse" id="navList">
+            <ul class="nav navbar-nav navList mr-5">
+                <li class="navbar-item pr-4">
+                    <a href="#" class="navbar-link text-white">Home</a>
+                </li>
+                <li class="navbar-item pr-4">
+                    <a href="#" class="navbar-link text-white">Search</a>
+                </li>
+                <li class="navbar-item pr-4">
+                    <a href="#" class="navbar-link text-white">Visit Spots</a>
+                </li>
+                <li class="navbar-item pr-4">
+                    <a href="#" class="navbar-link text-white">Gallery</a>
+                </li>
+                <li class="navbar-item pr-4">
+                    <a href="#" class="navbar-link text-white">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ---carousel--- -->
+    <div class="carousel slide" id="carouselExample" data-ride="carousel">
+        <div class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./travelling img/slider_one.jpg" class="d-block" width="100%" alt="">
+                <div class="carousel-caption text-white text-justify animate__animated animate__zoomIn"
+                    id="carouselCap">
+                    <h2 class="display-4">Hello, world!</h2>
+                    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                        delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita adipisci quasi
+                        illum incidunt. Itaque quia id debitis labore ullam excepturi?</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./travelling img/slider_two.jpg" class="d-block" width="100%" alt="">
+                <div class="carousel-caption text-white text-justify animate__animated animate__zoomIn"
+                    id="carouselCap">
+                    <h2 class="display-4">Hello, world!</h2>
+                    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                        delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita adipisci quasi
+                        illum incidunt. Itaque quia id debitis labore ullam excepturi?</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./travelling img/slider_three.jpg" class="d-block" width="100%" alt="">
+                <div class="carousel-caption text-white text-justify animate__animated animate__zoomIn"
+                    id="carouselCap">
+                    <h2 class="display-4">Hello, world!</h2>
+                    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                        delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita adipisci quasi
+                        illum incidunt. Itaque quia id debitis labore ullam excepturi?</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+                </div>
+            </div>
+        </div>
+        <!-- ---Control--- -->
+        <a href="#carouselExample" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon">Previous</span>
+        </a>
+        <a href="#carouselExample" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon">Next</span>
+        </a>
+
+    </div>
+
+    <!-- ---search your destination--- -->
+    <div class="container-fluid destinationBox">
+        <div class="mx-5">
+            <h2 class="display-4">Search Your Destination</h2>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia inventore ea
+                temporibus soluta iusto suscipit voluptatibus excepturi dicta perferendis! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Dicta,
+                delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita adipisci quasi
+                temporibus soluta iusto suscipit voluptatibus excepturi dicta perferendis! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Dicta,
+                delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita adipisci quasi
+                illum incidunt. Itaque quia id debitis labore ullam excepturi?</p>
+            <input type="text" placeholder="India" class="input-group w-50">
+        </div>
+    </div>
+
+    <!-- ---3cards--- -->
+    <div class="container my-5 px-4">
+        <div class="row">
+            <div class="col-md-4 pr-3">
+                <div class="card">
+                    <div class="card-body text-center p-5">
+                        <i class="fas fa-plane h1"></i>
+                        <h3>Pick Your Location</h3>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam quae.
+                            Laborum
+                            corrupti
+                            accusamus voluptate velit rerum nisi id officiis iusto distinctio! Sequi totam quod
+                            optio
+                            cumque delectus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pr-3">
+                <div class="card">
+                    <div class="card-body text-center p-5">
+                        <i class="fas fa-hotel h1"></i>
+                        <h3>Pick Your Location</h3>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam quae.
+                            Laborum
+                            corrupti
+                            accusamus voluptate velit rerum nisi id officiis iusto distinctio! Sequi totam quod
+                            optio
+                            cumque delectus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pr-3">
+                <div class="card">
+                    <div class="card-body text-center p-5">
+                        <i class="fas fa-location-arrow h1"></i>
+                        <h3>Pick Your Location</h3>
+                        <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam quae.
+                            Laborum
+                            corrupti
+                            accusamus voluptate velit rerum nisi id officiis iusto distinctio! Sequi totam quod
+                            optio
+                            cumque delectus.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ---popular destination--- -->
+    <div class="container">
+        <h1 class="text-center"><span class="text-primary">Popular</span> Destination</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deleniti dignissimos
+            quia aliquid ex aliquam eveniet, laboriosam voluptatum. Ex soluta totam ab ullam reiciendis amet excepturi
+            ipsam labore temporibus voluptate?</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./travelling img/card_1.jpg" height="200" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>MUNNAR, KERALA</h2>
+                        </div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                            amet? Et reiciendis, ab nulla accusamus nemo laboriosam molestiae veniam nisi sit quas illo
+                            asperiores quidem hic eveniet ipsa vel architecto!</div>
+                        <div class="btn btn-primary mt-4 ml-0">Read more</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./travelling img/card_1.jpg" height="200" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>MUNNAR, KERALA</h2>
+                        </div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                            amet? Et reiciendis, ab nulla accusamus nemo laboriosam molestiae veniam nisi sit quas illo
+                            asperiores quidem hic eveniet ipsa vel architecto!</div>
+                        <div class="btn btn-primary mt-4 ml-0">Read more</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./travelling img/card_1.jpg" height="200" alt="">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>MUNNAR, KERALA</h2>
+                        </div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                            amet? Et reiciendis, ab nulla accusamus nemo laboriosam molestiae veniam nisi sit quas illo
+                            asperiores quidem hic eveniet ipsa vel architecto!</div>
+                        <div class="btn btn-primary mt-4 ml-0">Read more</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-3">
+            <div class="btn btn-dark"><i class="fas fa-caret-right"></i> Start Booking</div>
+        </div>
+    </div>
+
+    <!-- ---follow--- -->
+    <div class="container-fluid text-center followContainer text-white pb-3">
+        <h2 class="text-center pt-3">Follow Travel Yari</h2>
+        <p>Lorem ipsum dolor sit amet consectetu. Consequuntur, ut.</p>
+        <i class="fab fa-twitter display-4 pr-3"></i>
+        <i class="fab fa-facebook display-4 pr-3"></i>
+        <i class="fab fa-youtube display-4 pr-3"></i>
+        <i class="fab fa-google-plus display-4 pr-3"></i>
+    </div>
+
+    <!-- ---photo gallery--- -->
+    <div class="container text-center mt-3">
+        <h1><span class="text-primary">Photo</span> Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, enim.</p>
+        <div class="row py-4">
+            <div class="col-md-3">  
+                <img src="./travelling img/gallery_1.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_2.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_3.jpg" class="p-2" height="200" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="./travelling img/gallery_4.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_5.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_6.jpg" class="p-2" height="200" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="./travelling img/gallery_7.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_8.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_9.jpg" class="p-2" height="200" alt="">
+
+            </div>
+            <div class="col-md-3">
+                <img src="./travelling img/gallery_10.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_11.jpg" class="p-2" height="200" alt="">
+                <img src="./travelling img/gallery_12.jpg" class="p-2" height="200" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---contact--- -->
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="card text-white contactCard text-center">
+                    <div class="card-body mx-4">
+                        <i class="fas fa-envelope display-3"></i>
+                        <div class="card-title">
+                            <h2>Contact For Booking</h2>
+                        </div>
+                        <div class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Dolor ratione
+                            illum molestiae autem suscipit perferendis consequuntur, mollitia vitae numquam aliquid
+                            placeat Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, molestiae. esse
+                            quia itaque quaerat vero, dignissimos sit quasi nostrum.</div>
+                    </div>
+                </div>
+                <div class="my-4">
+                    <h3>Location</h3>
+                    <h3>Travel Yari Pvt Ltd</h3>
+                    <h3>Nehru Nagar, Indore</h3>
+                    <h3>Indore(MP)</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header contactCard">
+                        <h3 class="text-center text-white">Contact Us</h3>
+                    </div>
+                    <div class="card-body bg-light">
+
+                        <form class="bg-light">
+                            <div class="form-group">
+                                <input type="text" class="form-control my-3" placeholder="Enter Name">
+                                <input type="email" class="form-control my-3" placeholder="Enter email">
+                                <input type="number" class="form-control my-3" placeholder="Enter Mobile">
+                                <input type="text" class="form-control my-3" placeholder="Loved destination">
+                                <input type="text" class="form-control-lg border-0 w-100">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---footer--- -->
+    <footer>
+        <div class="container text-center py-3">
+            <h3>copyright &copy;, Travel Add Pvt Ltd </h3>
+            <p>All Right Reserved</p>
+            <p>Developed by Tanmay Sir</p>
+
+        </div>
+    </footer>
+
+    <!---java script setup files-->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/mdb.js"></script>
+    <!---end setup-->
+</body>
+
+</html>
